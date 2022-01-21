@@ -25,6 +25,8 @@ namespace BuyProduct
             CarBuy carBuy = new CarBuy(listProtuct,DateTime.Now);
 
             carBuy.ListItem();
+            Console.WriteLine(" " + carBuy);
+
 
         }
     }
