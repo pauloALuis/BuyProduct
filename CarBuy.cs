@@ -14,6 +14,7 @@ namespace BuyProduct
         List<Product> Car = new List<Product>();
         public DateTime DateBuy { get; set; }
         public double Total { get; set; }
+      
 
         /// <summary>
         /// 
@@ -30,7 +31,7 @@ namespace BuyProduct
         /// <summary>
         /// Show list item product the car
         /// </summary>
-        public void ListItem (){
+        public void ShowListItemCar(){
             string product = "";
             double sum = 0;
             foreach (var item in Car)
@@ -44,6 +45,7 @@ namespace BuyProduct
             Console.WriteLine("-----------------------------\nTotal €" + sum);
 
         }
+
 
         public CarBuy(List<Product> car, DateTime dateBuy, double total) : this(car, dateBuy)
         {
