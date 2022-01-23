@@ -41,7 +41,7 @@ namespace BuyProduct
 
 
         /// <summary>
-        ///  add the IVA of the product
+        /// add the IVA of the product
         /// </summary>
         public double Price { get { return (_price * ((double)TypeIVA/100)) + _price;  }  }
 

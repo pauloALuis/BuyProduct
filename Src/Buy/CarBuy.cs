@@ -39,7 +39,6 @@ namespace BuyProduct
                 sum += item.Price;
                 product += item.CodProduct + "\t" + item.Name + "\t" + (int)item.TypeIVA + "%\t" + item.Price +"€\n";
 
-
             }
             Console.WriteLine(DateBuy +"\n Cod \t Name \t IVA \t Price \n" + product);
             Console.WriteLine("-----------------------------\nTotal €" + sum);
