@@ -12,7 +12,7 @@ namespace BuyProduct
         {
             PrintWork();
 
-          //PrintProduct();
+            PrintProduct();
 
 
 
